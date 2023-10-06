@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;    
+}
+
+.output{
+    border: 2px solid black;
+    height: 100px;
+    margin-bottom: 2px ;
+}
+
+.button{
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+}
